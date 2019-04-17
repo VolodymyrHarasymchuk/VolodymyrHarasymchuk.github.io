@@ -1,0 +1,44 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: mediumaquamarine;
+    height: 120px;
+}
+.heading1{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-right: 430px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: aqua;
+}
+.menu2{
+    width: 20%;
+    text-align: center;
+}
+.menu2:hover{
+    background-color: cadetblue;
+    color: white;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+}
+.box1{
+    flex: 4;
+}
+.box2{
+    flex: 2;
+    flex-direction: column;
+}
+.images{
+    display: flex;
+}
+.footer{
+    background-color: mediumaquamarine;
+    height: 50px;
+}
