@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Контакти</h1>
+</div>
+<div class="container" style="margin-bottom: 20px">
+ <div class="row">
+  <div style="margin-right: 2%"><a href="index.html"><button type="button" class="btn btn-secondary">Головна</button></a></div>
+  <div style="margin-right: 2%"><a href="index2.html"><button type="button" class="btn btn-secondary">Галерея</button></a></div>
+  <div style="margin-right: 2%"><a href="index3.html"><button type="button" class="btn btn-secondary">Контакти</button></a></div>
+  </div>
+</div>
+
+<section class="feedback_section" id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-7 col-lg-6 feedback_box">
+				<h2>Напишіть нам</h2>
+				<form class="feedback_form">
+					<div class="wrap_input_box">
+						<input type="text" id="name" name="name" required="">
+						<label for="name" class="hint_label">Ім'я*</label>
+					</div>
+					<div class="wrap_input_box">
+						<input type="email" id="email" name="email" required="">
+						<label for="email" class="hint_label">E-mail*</label>
+					</div>
+					<div class="wrap_input_box message">
+						<textarea name="message" id="message" required=""></textarea>
+						<label for="message" class="hint_label">Повідомлення*</label>
+					</div>
+					<input type="submit" value="send" id="submit_form">
+				</form>
+			</div>
+			<div class="img_feedback">
+				<img src="img/news/img-home-stage-3-doctor.png" alt="">
+			</div>
+		</div>
+	</div>
+</section>
+ 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
